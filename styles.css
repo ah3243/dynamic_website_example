@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .content {
+    height: 200vh; /* Making the page taller to allow scrolling */
+    padding: 50px;
+    background: #f8f8f8;
+    text-align: center;
+  }
+  
+  .dynamic-box {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ddd;
+    transition: transform 0.2s; /* Smooth transformation */
+  }
+  
+  .dynamic-image {
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.2s; /* Smooth transformation */
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
